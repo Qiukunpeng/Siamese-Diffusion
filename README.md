@@ -6,7 +6,7 @@
 </div>
 
 <div align="center">
-<img src="images/figure", width="1000">
+<img src="images/figure.png", width="1000">
 </div>
 
 ### Introduction
