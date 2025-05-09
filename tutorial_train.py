@@ -4,7 +4,6 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "0,1,2,3,4,5,6,7"
 from share import *
 
 import torch
-torch.cuda.empty_cache()
 import pytorch_lightning as pl
 from torch.utils.data import DataLoader
 from tutorial_dataset import MyDataset
@@ -16,7 +15,7 @@ torch.backends.cudnn.benchmark = False
 torch.backends.cudnn.deterministic = True
 
 # Configs
-resume_path = './stable-diffusion-v1-5/control_sd15_ini_add.ckpt'
+resume_path = './stable-diffusion-v1-5/control_sd15.ckpt'
 batch_size = 6
 logger_freq = 400
 learning_rate = 1e-5
