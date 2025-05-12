@@ -1,7 +1,7 @@
 <div align="center">
 <h1>Noise-Consistent Siamese-Diffusion for Medical Image Synthesis and Segmentation</h1>
 
-[![arXiv](https://img.shields.io/badge/arXiv-<2401.05771>-<COLOR>.svg)](https://arxiv.org/abs/2401.05771)
+[![arXiv](https://img.shields.io/badge/arXiv-<2505.06068>-<COLOR>.svg)](https://arxiv.org/abs/2505.06068v1)
 
 </div>
 
