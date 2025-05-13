@@ -40,6 +40,14 @@ This code is developed based on [ControlNet](https://github.com/lllyasviel/Contr
 ### Citation
 If you find our work useful in your research or if you use parts of this code, please consider citing our paper:
 ```bash
-
+@misc{qiu2025noiseconsistentsiamesediffusionmedicalimage,
+      title={Noise-Consistent Siamese-Diffusion for Medical Image Synthesis and Segmentation}, 
+      author={Kunpeng Qiu and Zhiqiang Gao and Zhiying Zhou and Mingjie Sun and Yongxin Guo},
+      year={2025},
+      eprint={2505.06068},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2505.06068}, 
+}
 ```
 
