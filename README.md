@@ -12,6 +12,8 @@
 ### Introduction
 Deep learning has revolutionized medical image segmentation, yet its full potential remains constrained by the paucity of annotated datasets. While diffusion models have emerged as a promising approach for generating synthetic image-mask pairs to augment these datasets, they paradoxically suffer from the same data scarcity challenges they aim to mitigate. Traditional mask-only models frequently yield low-fidelity images due to their inability to adequately capture morphological intricacies, which can critically compromise the robustness and reliability of segmentation models. To alleviate this limitation, we introduce Siamese-Diffusion, a novel dual-component model comprising Mask-Diffusion and Image-Diffusion. During training, a Noise Consistency Loss is introduced between these components to enhance the morphological fidelity of Mask-Diffusion in the parameter space. During sampling, only Mask-Diffusion is used, ensuring diversity and scalability. Comprehensive experiments demonstrate the superiority of our method. Siamese-Diffusion boosts SANet’s mDice and mIoU by 3.6\% and 4.4\% on the Polyps, while UNet improves by 1.52\% and 1.64\% on the ISIC2018.
 
+### Introduction
+
 ### Requirements
 The usual installation steps involve the following commands, they should set up the correct CUDA version and all the python packages:
 ```bash
@@ -40,14 +42,11 @@ This code is developed based on [ControlNet](https://github.com/lllyasviel/Contr
 ### Citation
 If you find our work useful in your research or if you use parts of this code, please consider citing our paper:
 ```bash
-@misc{qiu2025noiseconsistentsiamesediffusionmedicalimage,
-      title={Noise-Consistent Siamese-Diffusion for Medical Image Synthesis and Segmentation}, 
-      author={Kunpeng Qiu and Zhiqiang Gao and Zhiying Zhou and Mingjie Sun and Yongxin Guo},
-      year={2025},
-      eprint={2505.06068},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2505.06068}, 
+@article{qiu2025noise,
+  title={Noise-Consistent Siamese-Diffusion for Medical Image Synthesis and Segmentation},
+  author={Qiu, Kunpeng and Gao, Zhiqiang and Zhou, Zhiying and Sun, Mingjie and Guo, Yongxin},
+  journal={arXiv preprint arXiv:2505.06068},
+  year={2025}
 }
 ```
 
