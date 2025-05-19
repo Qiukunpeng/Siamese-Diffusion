@@ -18,6 +18,9 @@ The usual installation steps involve the following commands, they should set up 
 ```bash
 conda create -n Siamese-Diffusion python=3.10
 conda activate  Siamese-Diffusion
+conda install pytorch==2.4.0 torchvision==0.19.0  pytorch-cuda=11.8 -c pytorch -c nvidia
+pip install -U xformers --index-url https://download.pytorch.org/whl/cu118
+pip install deepspeed
 ```
 
 ### Data and Structure
@@ -50,7 +53,7 @@ Here are example commands for sampling:
 python . zero_to_fp32.py  
 python tool_merge_control.py
 
-# Sampling  
+# Sampling
 python tutorial_inference.py
 ```
 
