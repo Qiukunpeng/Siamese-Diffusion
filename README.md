@@ -34,7 +34,7 @@
 
 </details>
 
-### Requirements
+### 🛠️ Requirements
 The usual installation steps involve the following commands, they should set up the correct CUDA version and all the python packages:
 ```bash
 conda create -n Siamese-Diffusion python=3.10
@@ -44,7 +44,7 @@ pip install -U xformers --index-url https://download.pytorch.org/whl/cu118
 pip install deepspeed
 ```
 
-### Data and Structure
+### 🗂️ Data and Structure
 We evaluated our method on three public datasets: [Polyps](https://github.com/DengPingFan/PraNet) (as provided by the PraNet project), [ISIC2016](https://challenge.isic-archive.com/landing/2016/), and [ISIC2018](https://challenge.isic-archive.com/landing/2018/).
 ```bash
 --data
@@ -53,7 +53,7 @@ We evaluated our method on three public datasets: [Polyps](https://github.com/De
   --prompt.json
 ```
 
-### Training
+### 🏋️‍♂️ Training
 Here are example commands for training:
 
 🔥 **Note:** All improvements have been integrated into `cldm.py`, and the `DHI` module is implemented in `dhi.py`. Both are located within the `clam` folder.
@@ -70,7 +70,7 @@ python tool_add_control.py
 python tutorial_train.py
 ```
 
-### Sampling
+### 🎨 Sampling
 Here are example commands for sampling:
 ```bash
 # ZeRO-2 distributed weights are saved under the folder:  
@@ -83,10 +83,10 @@ python tool_merge_control.py
 python tutorial_inference.py
 ```
 
-### Acknowledgements
+### 📣 Acknowledgements
 This code is developed based on [ControlNet](https://github.com/lllyasviel/ControlNet) and incorporates several segmentation models, including [SANet](https://github.com/weijun-arc/SANet), [Polyp-PVT](https://github.com/DengPingFan/Polyp-PVT), and [CTNet](https://github.com/Fhujinwu/CTNet).
 
-### Citation
+### 📖 Citation
 If you find our work useful in your research or if you use parts of this code, please consider citing our paper:
 ```bash
 @article{qiu2025noise,
