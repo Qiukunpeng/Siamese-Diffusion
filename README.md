@@ -54,8 +54,7 @@ We evaluated our method on three public datasets: [Polyps](https://github.com/De
 ```
 
 ### 🏋️‍♂️ Training
-Here are example commands for training:
-
+  
 💡 **Note:** All improvements have been integrated into `cldm.py`, and the `DHI` module is implemented in `dhi.py`. Both are located within the `clam` folder.
 
 🔥 **Recommendation:** The **DHI** module serves as a **plug-and-play** enhancement and is recommended for all **ControlNet-based** implementations.  
@@ -65,6 +64,7 @@ For datasets with a significant **domain gap** from the pretrained data, such as
 ...  
 the **DHI module** can **substantially accelerate convergence**, especially when **jointly fine-tuning the Stable Diffusion UNet decoder**.  
 
+Here are example commands for training:
 ```bash
 # Initialize ControlNet with the pretrained UNet encoder weights from Stable Diffusion,  
 # then merge them with Stable Diffusion weights and save as: control_sd15.ckpt  
