@@ -12,20 +12,26 @@
 ### 🚀 **Practical Example**
 <details>
 <summary>▶ Click to expand comparison: Polyps Images</summary>
+
 <!-- Polyps Images -->
 ![Polyp Example](images/figure2.png)
+
 </details>
 
 <details>
 <summary>▶ Click to expand comparison: ISIC2016 Images</summary>
+
 <!-- ISIC2016 Images -->
 ![ISIC2016 Example](images/figure3.png)
+
 </details>
 
 <details>
 <summary>▶ Click to expand comparison: ISIC2018 Images</summary>
+
 <!-- ISIC2018 Images -->
 ![ISIC2018 Example](images/figure4.png)
+
 </details>
 
 ### Requirements
