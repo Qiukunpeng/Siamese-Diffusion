@@ -59,6 +59,32 @@ python tool_merge_control.py
 python tutorial_inference.py
 ```
 
+### 🚀 **Practical Example**
+
+<details>
+<summary>▶ Click to expand comparison Images</summary>
+
+<!-- Polyps Images -->
+![Example 1](images/figure2.png)
+
+</details>
+
+<details>
+<summary>▶ Click to expand comparison GIFs</summary>
+
+<!-- ISIC2016 Images -->
+![Example 2](images/figure3.png)
+
+</details>
+
+<details>
+<summary>▶ Click to expand comparison GIFs</summary>
+
+<!-- ISIC2018 Images -->
+![Example 2](images/figure4.png)
+
+</details>
+
 ### Acknowledgements
 This code is developed based on [ControlNet](https://github.com/lllyasviel/ControlNet) and incorporates several segmentation models, including [SANet](https://github.com/weijun-arc/SANet), [Polyp-PVT](https://github.com/DengPingFan/Polyp-PVT), and [CTNet](https://github.com/Fhujinwu/CTNet).
 
