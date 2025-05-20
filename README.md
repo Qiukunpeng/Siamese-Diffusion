@@ -10,6 +10,7 @@
 </div>
 
 ### 🚀 **Practical Examples**
+
 ![Polyp Images Comparison](images/figure2.png)
 
 <details>
