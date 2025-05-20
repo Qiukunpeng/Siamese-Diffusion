@@ -58,7 +58,7 @@ We evaluated our method on three public datasets: [Polyps](https://github.com/De
 
 ### 🏋️‍♂️ Training
   
-💡 **Note:** All improvements have been integrated into `cldm.py`, and the `DHI` module is implemented in `dhi.py`. Both are located within the `clam` folder.
+💡 **Note:** All improvements have been integrated into `cldm.py`, and the `DHI` module is implemented in `dhi.py`. Both are located within the `cldm` folder.
 
 🔥 **Recommendation**
 
