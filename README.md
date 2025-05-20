@@ -9,7 +9,7 @@
 <img src="images/figure1.png", width="1000">
 </div>
 
-### 🚀 **Practical Example**
+### 🚀 **Practical Examples**
 <details>
 <summary>▶ Click to expand comparison: Polyps Images</summary>
 
