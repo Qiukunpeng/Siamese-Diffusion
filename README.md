@@ -58,7 +58,7 @@ Here are example commands for training:
 
 🔥 **Note:** All improvements have been integrated into `cldm.py`, and the `DHI` module is implemented in `dhi.py`. Both are located within the `clam` folder.
 
-We strongly recommend all **ControlNet** users integrate the **DHI module**. For datasets with a significant domain gap from the pretrained data — such as **medical images** — the **DHI module** can **substantially accelerate convergence**, especially when **jointly fine-tuning the Stable Diffusion UNet decoder**.
+The **DHI** module serves as a **plug-and-play** enhancement and is recommended for all **ControlNet-based** implementations. For datasets with a significant domain gap from the pretrained data — such as **medical images** — the **DHI module** can **substantially accelerate convergence**, especially when **jointly fine-tuning the Stable Diffusion UNet decoder**.
 
 ```bash
 # Initialize ControlNet with the pretrained UNet encoder weights from Stable Diffusion,  
@@ -87,7 +87,7 @@ python tutorial_inference.py
 ![Ablation Study Visualization](images/figure5.png)
 
 <details>
-<summary>▶ Click to expand more Ablation Results: Polyp Images</summary>
+<summary>▶ Click to expand more ablation results: Polyp Images</summary>
 
 <!-- Polyp Images -->
 ![Polyp Example](images/figure6.png)
