@@ -60,7 +60,7 @@ Here are example commands for training:
 
 🔥 **Recommendation:** The **DHI** module serves as a **plug-and-play** enhancement and is recommended for all **ControlNet-based** implementations.  
 For datasets with a significant **domain gap** from the pretrained data, such as:  
-• **Medical images**    
+• **Medical segmentation images**    
 • **Anomaly detection images**  
 ...  
 the **DHI module** can **substantially accelerate convergence**, especially when **jointly fine-tuning the Stable Diffusion UNet decoder**.  
