@@ -6,7 +6,7 @@
 </div>
 
 <div align="center">
-<img src="images/figure1.pdf", width="1000">
+<img src="images/figure1.png", width="1000">
 </div>
 
 ### 🚀 **Practical Examples**
@@ -14,7 +14,7 @@
 <summary>▶ Click to expand comparison: Polyps Images</summary>
 
 <!-- Polyps Images -->
-![Polyp Example](images/figure2.pdf)
+![Polyp Example](images/figure2.png)
 
 </details>
 
@@ -22,7 +22,7 @@
 <summary>▶ Click to expand comparison: ISIC2016 Images</summary>
 
 <!-- ISIC2016 Images -->
-![ISIC2016 Example](images/figure3.pdf)
+![ISIC2016 Example](images/figure3.png)
 
 </details>
 
@@ -30,7 +30,7 @@
 <summary>▶ Click to expand comparison: ISIC2018 Images</summary>
 
 <!-- ISIC2018 Images -->
-![ISIC2018 Example](images/figure4.pdf)
+![ISIC2018 Example](images/figure4.png)
 
 </details>
 
@@ -84,13 +84,13 @@ python tutorial_inference.py
 ```
 
 ### 🖼️ Visualization Results of Ablation Study
-![Ablation Study Visualization](images/figure5.pdf)
+![Ablation Study Visualization](images/figure5.png)
 
 <details>
 <summary>▶ Click to expand more Ablation Results: Polyp Images</summary>
 
 <!-- Polyp Images -->
-![Polyp Example](images/figure6.pdf)
+![Polyp Example](images/figure6.png)
 
 </details>
 
