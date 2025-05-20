@@ -83,6 +83,17 @@ python tool_merge_control.py
 python tutorial_inference.py
 ```
 
+### 🖼️ Visualization Results of Ablation Study
+![Ablation Study Visualization](images/figure5.png)
+
+<details>
+<summary>▶ Click to expand more Ablation Results: Polyp Images</summary>
+
+<!-- Polyp Images -->
+![Polyp Example](images/figure6.png)
+
+</details>
+
 ### 📣 Acknowledgements
 This code is developed based on [ControlNet](https://github.com/lllyasviel/ControlNet) and incorporates several segmentation models, including [SANet](https://github.com/weijun-arc/SANet), [Polyp-PVT](https://github.com/DengPingFan/Polyp-PVT), and [CTNet](https://github.com/Fhujinwu/CTNet).
 
