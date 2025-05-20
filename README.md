@@ -9,6 +9,24 @@
 <img src="images/figure1.png", width="1000">
 </div>
 
+### 🚀 **Practical Example**
+<details>
+<summary>▶ Click to expand comparison: Polyps Images</summary>
+<!-- Polyps Images -->
+![Polyp Example](images/figure2.png)
+</details>
+
+<details>
+<summary>▶ Click to expand comparison: ISIC2016 Images</summary>
+<!-- ISIC2016 Images -->
+![ISIC2016 Example](images/figure3.png)
+</details>
+
+<details>
+<summary>▶ Click to expand comparison: ISIC2018 Images</summary>
+<!-- ISIC2018 Images -->
+![ISIC2018 Example](images/figure4.png)
+</details>
 
 ### Requirements
 The usual installation steps involve the following commands, they should set up the correct CUDA version and all the python packages:
@@ -58,32 +76,6 @@ python tool_merge_control.py
 # Sampling
 python tutorial_inference.py
 ```
-
-### 🚀 **Practical Example**
-
-<details>
-<summary>▶ Click to expand comparison Images</summary>
-
-<!-- Polyps Images -->
-![Example 1](images/figure2.png)
-
-</details>
-
-<details>
-<summary>▶ Click to expand comparison GIFs</summary>
-
-<!-- ISIC2016 Images -->
-![Example 2](images/figure3.png)
-
-</details>
-
-<details>
-<summary>▶ Click to expand comparison GIFs</summary>
-
-<!-- ISIC2018 Images -->
-![Example 2](images/figure4.png)
-
-</details>
 
 ### Acknowledgements
 This code is developed based on [ControlNet](https://github.com/lllyasviel/ControlNet) and incorporates several segmentation models, including [SANet](https://github.com/weijun-arc/SANet), [Polyp-PVT](https://github.com/DengPingFan/Polyp-PVT), and [CTNet](https://github.com/Fhujinwu/CTNet).
