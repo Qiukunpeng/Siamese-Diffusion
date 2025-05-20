@@ -10,11 +10,13 @@
 </div>
 
 ### 🚀 **Practical Examples**
-<details>
-<summary>▶ Click to expand comparison: Polyps Images</summary>
+![Polyp Images Comparison](images/figure2.png)
 
-<!-- Polyps Images -->
-![Polyp Example](images/figure2.png)
+<details>
+<summary>▶ Click to expand more comparison: Polyp Images</summary>
+
+<!-- Polyp Images -->
+![Polyp Example](images/figure3.png)
 
 </details>
 
@@ -22,7 +24,7 @@
 <summary>▶ Click to expand comparison: ISIC2016 Images</summary>
 
 <!-- ISIC2016 Images -->
-![ISIC2016 Example](images/figure3.png)
+![ISIC2016 Example](images/figure4.png)
 
 </details>
 
@@ -30,7 +32,7 @@
 <summary>▶ Click to expand comparison: ISIC2018 Images</summary>
 
 <!-- ISIC2018 Images -->
-![ISIC2018 Example](images/figure4.png)
+![ISIC2018 Example](images/figure5.png)
 
 </details>
 
@@ -94,13 +96,13 @@ python tutorial_inference.py
 ```
 
 ### 🖼️ Visualization Results of Ablation Study
-![Ablation Study Visualization](images/figure5.png)
+![Ablation Study Visualization](images/figure6.png)
 
 <details>
 <summary>▶ Click to expand more ablation results: Polyp Images</summary>
 
 <!-- Polyp Images -->
-![Polyp Example](images/figure6.png)
+![Polyp Example](images/figure7.png)
 
 </details>
 
