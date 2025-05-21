@@ -16,12 +16,12 @@ from cldm.model import create_model
 
 
 def get_node_name(name, parent_name):
-    if name.startswith(parent_name):
-        return True, name[len(parent_name):]
-    elif name.startswith('image_' + parent_name):
-        return True, name[len('image_' + parent_name):]
-    return False, ''
-
+    if len(name) <= len(parent_name):
+        return False, ''
+    p = name[:len(parent_name)]
+    if p != parent_name:
+        return False, ''
+    return True, name[len(parent_name):]
 
 
 model = create_model(config_path='./models/cldm_v15.yaml')
@@ -39,19 +39,8 @@ for k in scratch_dict.keys():
         copy_k = 'model.diffusion_' + name
     else:
         copy_k = k
-    
-    # Add logic to handle 'image_' prefix
     if copy_k in pretrained_weights:
         target_dict[k] = pretrained_weights[copy_k].clone()
-    elif copy_k.startswith('image_'):
-        # Remove 'image_' prefix and check again
-        copy_k_no_image = copy_k[len('image_'):]
-        if copy_k_no_image in pretrained_weights:
-            target_dict[k] = pretrained_weights[copy_k_no_image].clone()
-            print(f'Key "{copy_k}" not found in pretrained weights. Using "{copy_k_no_image}" instead.')
-        else:
-            target_dict[k] = scratch_dict[k].clone()
-            print(f'Key "{copy_k}" not found in pretrained weights. Using scratch weights.')
     else:
         target_dict[k] = scratch_dict[k].clone()
         print(f'These weights are newly added: {k}')
