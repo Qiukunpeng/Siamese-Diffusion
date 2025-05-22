@@ -123,5 +123,5 @@ If you find our work useful in your research or if you use parts of this code, p
 
 ## 👀 访问统计
 
-![visitors chart](https://quickchart.io/chart?c={type:'line',data:{labels:['Mon','Tue','Wed','Thu','Fri'],datasets:[{label:'Visitors',data:[3,7,4,10,6]}]},options:{elements:{line:{tension:0.5}},plugins:{legend:{labels:{color:'black'}}}})
+![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=Qiukunpeng.Siamese-Diffusion)
 
