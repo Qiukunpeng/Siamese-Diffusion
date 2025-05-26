@@ -110,7 +110,7 @@ python tutorial_inference.py
 ### 📣 Acknowledgements
 This code is developed based on [ControlNet](https://github.com/lllyasviel/ControlNet) and incorporates several segmentation models, including [SANet](https://github.com/weijun-arc/SANet), [Polyp-PVT](https://github.com/DengPingFan/Polyp-PVT), and [CTNet](https://github.com/Fhujinwu/CTNet).
 
-### Star History
+### ⭐️ Star History
 
 <div align="center">
   <a href="https://www.star-history.com/#Qiukunpeng/Siamese-Diffusion&Date">
