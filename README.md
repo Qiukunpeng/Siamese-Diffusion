@@ -116,6 +116,7 @@ This code is developed based on [ControlNet](https://github.com/lllyasviel/Contr
   <a href="https://www.star-history.com/#Qiukunpeng/Siamese-Diffusion&Date">
     <img src="https://api.star-history.com/svg?repos=Qiukunpeng/Siamese-Diffusion&type=Date" width="400">
   </a>
+  <p>Thanks to <a href="https://star-history.com" target="_blank">Star History</a> for the visualization!</p>
 </div>
 
 ### 📖 Citation
