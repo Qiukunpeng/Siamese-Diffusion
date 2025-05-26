@@ -123,7 +123,9 @@ If you find our work useful in your research or if you use parts of this code, p
 
 ### Star History
 
-<a href="https://www.star-history.com/#Qiukunpeng/Siamese-Diffusion&Date">
-  <img src="https://api.star-history.com/svg?repos=Qiukunpeng/Siamese-Diffusion&type=Date" width="400">
-</a>
+<div align="center">
+  <a href="https://www.star-history.com/#Qiukunpeng/Siamese-Diffusion&Date">
+    <img src="https://api.star-history.com/svg?repos=Qiukunpeng/Siamese-Diffusion&type=Date" width="400">
+  </a>
+</div>
 
