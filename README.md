@@ -110,6 +110,14 @@ python tutorial_inference.py
 ### 📣 Acknowledgements
 This code is developed based on [ControlNet](https://github.com/lllyasviel/ControlNet) and incorporates several segmentation models, including [SANet](https://github.com/weijun-arc/SANet), [Polyp-PVT](https://github.com/DengPingFan/Polyp-PVT), and [CTNet](https://github.com/Fhujinwu/CTNet).
 
+### Star History
+
+<div align="center">
+  <a href="https://www.star-history.com/#Qiukunpeng/Siamese-Diffusion&Date">
+    <img src="https://api.star-history.com/svg?repos=Qiukunpeng/Siamese-Diffusion&type=Date" width="400">
+  </a>
+</div>
+
 ### 📖 Citation
 If you find our work useful in your research or if you use parts of this code, please consider citing our paper:
 ```bash
@@ -120,12 +128,4 @@ If you find our work useful in your research or if you use parts of this code, p
   year={2025}
 }
 ```
-
-### Star History
-
-<div align="center">
-  <a href="https://www.star-history.com/#Qiukunpeng/Siamese-Diffusion&Date">
-    <img src="https://api.star-history.com/svg?repos=Qiukunpeng/Siamese-Diffusion&type=Date" width="400">
-  </a>
-</div>
 
