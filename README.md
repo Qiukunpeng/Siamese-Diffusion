@@ -113,8 +113,8 @@ This code is developed based on [ControlNet](https://github.com/lllyasviel/Contr
 ### ⭐️ Star History
 
 <div align="center">
-  <a href="https://www.star-history.com/#Qiukunpeng/Siamese-Diffusion&Date">
-    <img src="https://api.star-history.com/svg?repos=Qiukunpeng/Siamese-Diffusion&type=Date" width="400">
+  <a href="https://www.star-history.com/#Qiukunpeng/Siamese-Diffusion&Timeline">
+    <img src="https://api.star-history.com/svg?repos=Qiukunpeng/Siamese-Diffusion&type=Timeline" width="400">
   </a>
   <p>⭐️ Thank you to everyone who starred this project — your support means a lot!</p>
 </div>
