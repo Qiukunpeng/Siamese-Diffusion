@@ -2,7 +2,7 @@
 <h1>Noise-Consistent Siamese-Diffusion for Medical Image Synthesis and Segmentation</h1>
 
 [![arXiv](https://img.shields.io/badge/arXiv-<2505.06068>-<COLOR>.svg)](https://arxiv.org/abs/2505.06068v1)
-![visitors](https://visitor-badge.glitch.me/badge?page_id=Qiukunpeng.Siamese-Diffusion)
+![Visitor Count](https://count.getloli.com/get/@Qiukunpeng.Siamese-Diffusion?theme=rule34)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Qiukunpeng/Siamese-Diffusion?style=social)
 
 </div>
