@@ -3,6 +3,7 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-<2505.06068>-<COLOR>.svg)](https://arxiv.org/abs/2505.06068v1)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Qiukunpeng/Siamese-Diffusion?style=social)
+![GitHub all releases](https://img.shields.io/github/downloads/Qiukunpeng/Siamese-Diffusion/total)
 
 </div>
 
