@@ -90,7 +90,7 @@ Here are example commands for sampling:
 # ZeRO-2 distributed weights are saved under the folder:  
 # lightning_logs/version_#/checkpoints/epoch/  
 # Run the following commands to merge the weights:  
-python . zero_to_fp32.py  
+python zero_to_fp32.py . pytorch_model.bin  
 python tool_merge_control.py
 
 # Sampling
