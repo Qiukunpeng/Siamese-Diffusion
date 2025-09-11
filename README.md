@@ -120,5 +120,12 @@ If you find our work useful in your research or if you use parts of this code, p
   journal={arXiv preprint arXiv:2505.06068},
   year={2025}
 }
+
+@article{qiu2025adaptively,
+  title={Adaptively Distilled ControlNet: Accelerated Training and Superior Sampling for Medical Image Synthesis},
+  author={Qiu, Kunpeng and Zhou, Zhiying and Guo, Yongxin},
+  journal={arXiv preprint arXiv:2507.23652},
+  year={2025}
+}
 ```
 
