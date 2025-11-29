@@ -3,6 +3,7 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-<2505.06068>-<COLOR>.svg)](https://arxiv.org/abs/2505.06068v1)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Qiukunpeng/Siamese-Diffusion?style=social)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue)](https://huggingface.co/SylarQ/Siamese-Diffusion)
 
 </div>
 
@@ -37,6 +38,15 @@
 ![ISIC2018 Example](images/figure5.png)
 
 </details>
+
+
+### 📥 Download
+We provide the pretrained model weights and processed datasets on **Hugging Face**.
+
+| Resource | Description | Link |
+| :--- | :--- | :--- |
+| **Model Weights** | Checkpoints for Siamese-Diffusion (Polyps) | [🤗 Hugging Face](https://huggingface.co/SylarQ/Siamese-Diffusion) |
+| **Datasets** | Synthesized Polyps Images | [🤗 Hugging Face](https://huggingface.co/datasets/SylarQ/Siamese-Diffusion) |
 
 ### 🛠️ Requirements
 The usual installation steps involve the following commands, they should set up the correct CUDA version and all the python packages:
