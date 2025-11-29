@@ -41,7 +41,7 @@
 
 
 ### 📥 Download
-We provide the pretrained model weights and processed datasets on **Hugging Face**.
+We provide the model weights and synthesized datasets (Polyps) on **Hugging Face**.
 
 | Resource | Description | Link |
 | :--- | :--- | :--- |
