@@ -2,8 +2,8 @@
 <h1>Noise-Consistent Siamese-Diffusion for Medical Image Synthesis and Segmentation</h1>
 
 [![arXiv](https://img.shields.io/badge/arXiv-<2505.06068>-<COLOR>.svg)](https://arxiv.org/abs/2505.06068v1)
-![GitHub Repo stars](https://img.shields.io/github/stars/Qiukunpeng/Siamese-Diffusion?style=social)
 [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue)](https://huggingface.co/SylarQ/Siamese-Diffusion)
+![GitHub Repo stars](https://img.shields.io/github/stars/Qiukunpeng/Siamese-Diffusion?style=social)
 
 </div>
 
